@@ -1,6 +1,6 @@
 const selectElement = document.querySelector("#breeds");
 const dogName = document.querySelector(".dogName");
-let imgSrc = "";
+
 
 selectElement.addEventListener('change', getPhotoOfSelectedDog);
 
@@ -29,7 +29,6 @@ function fillSelectWithOptions(allBreeds) {
 
 	selectElement.innerHTML = html;
 
-	
 }
 
 //-Select reiksmes gavimas ir image patalpinimas html'e---
